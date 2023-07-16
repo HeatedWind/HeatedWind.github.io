@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Project 1</h1>
+    </header>
+
+    <main>
+        <section class="project-details">
+            <h2>Project 1</h2>
+            <p>Description of Project 1</p>
+            <div class="video">
+                <!-- Replace with your video embed code or link -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            
+            <!-- Add more project content as needed -->
+
+            <!-- Disqus Comment Section -->
+            <div class="comments">
+                <div id="disqus_thread"></div>
+                <script>
+                    var disqus_config = function () {
+                        this.page.url = window.location.href;
+                        this.page.identifier = 'project1'; // Use a unique identifier for each project
+                    };
+                    (function () {
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://your-disqus-shortname.disqus.com/embed.js'; // Replace 'your-disqus-shortname' with your Disqus shortname
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact: your.email@example.com</p>
+        <div class="social">
+            <a href="https://www.twitter.com/yourusername"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/yourusername"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/yourusername"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
+    </footer>
+</body>
+</html>
