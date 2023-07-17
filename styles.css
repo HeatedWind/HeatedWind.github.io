@@ -1,0 +1,201 @@
+body {
+    background: #fff url(Images/istockphoto-1366554103-612x612.jpg) center center/cover no-repeat fixed;
+    font-family: Arial, sans-serif;
+    background-color: rgba(38, 142, 192, 0.5);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #fff url(Images/hedder.png) center center/cover no-repeat;
+    background-color: #75b8ff;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #346ba5;
+    font-size: xx-large;
+    text-align: center;
+}
+h3 {
+    color: #a56134;
+    font-size: xx-large;
+}
+
+.image-border {
+    border-left: 20px solid rgba(255, 255, 255, 0);
+    border-right: 20px solid rgba(255, 255, 255, 0);
+    padding: 5px;
+}
+.image-border1 {
+    border-left: 0px solid rgba(255, 255, 255, 0);
+    border-right: 0px solid rgba(255, 255, 255, 0);
+    border-bottom: 20px solid rgba(255, 255, 255, 0);
+    padding: 5px;
+}
+.project button {
+    padding: 10px 15px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    color: #000000;
+    background-color: #47b943;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 0 6px #999;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    animation: myAnim1 2s ease 0s infinite normal forwards;
+}  
+.project button:hover {background-color: #2c9129}
+
+
+.project {
+    background-color: #ffffff57;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 30px 1px #000;
+    animation: myAnim 2s ease-out 0s 1 alternate forwards;
+}
+
+.project h2 {
+    color: #cf943c;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (change as needed) */
+    height: 0;
+    overflow: hidden;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 60%;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.comments {
+    margin-top: 20px;
+}
+
+footer {
+    background: #fff url(Images/footer.png) center center/cover no-repeat;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateX(48px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateX(26px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateX(13px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateX(6.5px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateX(4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87%,
+	98% {
+		animation-timing-function: ease-out;
+		transform: translateX(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+@keyframes myAnim1 {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	40% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	50% {
+		transform: scale3d(1.15, 0.85, 1);
+	}
+
+	65% {
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	75% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
