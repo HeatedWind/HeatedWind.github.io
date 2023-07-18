@@ -20,7 +20,7 @@ header h1 + p {
 
 @media screen and (max-width: 767px) {
     header h1 + p {
-      font-size:x-small; /* Adjust font size for smaller screens */
+      font-size:20px; /* Adjust font size for smaller screens */
       font-weight: bold;
     }
   }
@@ -111,7 +111,7 @@ footer {
 }
 @media screen and (max-width: 767px) {
     .social p {
-      font-size:x-small; /* Adjust font size for smaller screens */
+      font-size:10px; /* Adjust font size for smaller screens */
     }
   }
 
