@@ -1,0 +1,11 @@
+Components Required :
+
+555 Timer IC
+3× 1k Resistors
+10nF Capacitor
+100nF Capacitor
+2× 12v Zenner diode
+10k Potentiometer
+LED (Green)
+12V DC Supply
+2N2222A NPN Transistor

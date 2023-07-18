@@ -1,0 +1,111 @@
+body {
+    background: #fff url(Images/background-pattern.png) center center/cover no-repeat fixed;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #fff url(Images/background-colors-texture-detail.jpg) center center/cover no-repeat;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    font-size:40px;
+}
+
+@media screen and (max-width: 767px) {
+    header h1 {
+      font-size:x-small; /* Adjust font size for smaller screens */
+    }
+  }
+
+main {
+    padding: 50px;
+}
+
+h2 {
+    color: #346ba5;
+    font-size:50px;
+    text-align: center;
+}
+
+h3 {
+    color: #346ba5;
+    font-size:35px;
+    font-weight: bold;
+}
+
+.project-details p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+summary {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+p.uses{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (change as needed) */
+    height: 0;
+    overflow: hidden;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 60%;
+}
+
+a {
+    color: #0050a5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background: #fff url(Images/footer.png) center center/cover no-repeat;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social p {
+    font-size:medium;
+}
+@media screen and (max-width: 767px) {
+    .social p {
+      font-size:x-small; /* Adjust font size for smaller screens */
+    }
+  }
+
+.social img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+
+

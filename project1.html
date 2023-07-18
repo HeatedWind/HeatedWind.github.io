@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="projstyles.css">
+</head>
+<body>
+    <header>
+        <br><h1>Project 1</h1><br>
+    </header>
+
+    <main>
+        <section class="project-details">
+            <h2>555-Timer-Led-Dimmer-Circuit</h2>
+            <h3>Introduction</h3>
+            <p>The 555 Timer LED Dimmer Circuit using PWM (Pulse Width Modulation) is a popular electronic circuit that provides dynamic control over the brightness of LEDs. The circuit utilizes the versatile 555 timer IC in astable mode to generate a continuous square wave with a varying duty cycle. By adjusting the duty cycle using a potentiometer, the LED's on-time and off-time are altered, effectively changing its average brightness. This Pulse Width Modulation technique allows for smooth and precise dimming of LEDs, making it ideal for applications such as mood lighting, automotive lighting, and other scenarios where adjustable brightness is desired. The simplicity and effectiveness of this circuit make it a common choice for DIY electronics projects and educational purposes.</p>
+            <br>
+            <h3>Circuit diagram</h3>
+            <p>Here in this project, the 555 Timer is made to operate in the Astable Multivibrator Mode. The 1KΩ Resistor, the 10KΩ POT and the 0.1μF Capacitor connected with respect to Pins 2, 6 and 7 will play an important role. Based on the charge and discharge timings of the Capacitor, a PWM Signal is generated at the OUT Pin i.e. Pin 3 of the 555 Timer IC. The output of the 555, which is taken form pin 3, is connected to the led panel through the NPN Transistor (2N2222 is used here) and a 1KΩ resistor. The 1KΩ resistor is used to limit the base current of the transistor and transistor is used as an amplifier to limit or enhance the current which is given to the LED panel.</p>
+            <br>
+            <img src="Images/project1/Schematic_555 timer led dimmer_2023-04-30.png" alt="" width="600" class="image-border">
+            <br><br>
+            <iframe name="myIFrame" src="Images/project1/component.txt" height="200" width="200"></iframe>
+            <br><br>
+            <h3>PCB diagram</h3>
+            <img src="Images/project1/PCBlayer.png" alt="" width="600" class="image-border">
+            <details>
+                <summary>Importance of PWM Signal</summary>
+                <p class="uses">Pulse Width Modulation (PWM) is a versatile technique used in various applications across different industries. By varying the duty cycle of a digital signal, PWM enables precise control over power delivery, voltage, or intensity, making it suitable for a wide range of purposes. Some common uses of PWM include:
+                <br><br>1) Motor Control: PWM is extensively used to control the speed and direction of motors in robotics, industrial automation, and electric vehicles. By adjusting the duty cycle, the average voltage applied to the motor can be modified, resulting in variable motor speeds.
+                <br><br>2) LED Dimming: PWM is employed in LED dimmer circuits to control the brightness of LEDs effectively. By changing the duty cycle of the PWM signal driving the LED, the apparent brightness can be adjusted smoothly.
+                <br><br>3) Audio Amplification: Class-D audio amplifiers use PWM to amplify audio signals efficiently. By modulating the duty cycle of the PWM signal based on the input audio, the amplified audio signal can be accurately reproduced.
+                <br><br>4) Switching Power Supplies: PWM is a fundamental component of switching power supplies, used to regulate output voltage and efficiently convert one voltage level to another. High-frequency PWM signals control the on/off states of the power transistors in the power supply, ensuring efficient energy transfer.
+                <br><br>5) Solar Charge Controllers: PWM is employed in solar charge controllers to regulate the charging of batteries from solar panels. The duty cycle controls the charging current to maintain optimal battery health.
+                <br><br>6) Temperature Control: PWM is used in temperature control systems to regulate the power supplied to heaters or coolers. By adjusting the duty cycle, the average power output can be varied to maintain a desired temperature.
+                <br><br>7) RC Servo Control: PWM signals are utilized to control RC servos commonly found in remote-controlled vehicles, robotics, and hobbyist projects. The duty cycle determines the servo position, allowing precise control over the movement of robotic limbs or mechanisms.
+                <br><br>8) Communication: PWM is used in some communication protocols, such as infrared (IR) remote control systems and radio-controlled devices, to transmit digital information over analog channels.
+                <br><br>Overall, PWM's flexibility and efficiency make it a crucial technique in modern electronics, enabling precise control and regulation in a wide range of applications.</p>
+            </details><br><br>
+            <br><br>
+            <p class="links">Links :</p>
+            <a href="https://github.com/HeatedWind/555-Timer-Led-Dimmer-Circuit">GitHub repository.</a><br><br>
+            <br><br><br>
+            <!-- <div class="video">
+                ........Replace with your video embed code or link.......
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>-->
+
+            <video controls height="220" width="390">
+                <source src="https://drive.google.com/file/d/186z6a-xW_sDx8ygs5Tw0DyaURrsX3WIV/view?usp=drive_link" type="video/mp4">
+            </video>
+            
+            <!-- Add more project content as needed -->
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact: sahasudip93393@gmail.com</p>
+        <div class="social">
+            <a href="https://www.twitter.com/yourusername"><img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/perfectionist_sudip"><img src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/yourusername"><img src="https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn"></a>
+        </div>
+    </footer>
+</body>
+</html>

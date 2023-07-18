@@ -1,0 +1,8 @@
+Components Required :
+
+555 Timer IC
+10k Resistor
+220ohm Resistor
+4.7uF Capacitor
+LED (Green)
+9V DC supply
